@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <div>
+      <div class="musicUi">
+    <h3 class="headerMain">Audio player</h3>
+
+      </div>
+    </div>
+  <div class="music_container cont">
+    <i class="fa-solid fa-chevron-up arrowup"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" class="uparrow cont_arrow" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+    <h3 class="header">Audio player</h3>
+      <div>
+        <div class="flex flexit">
+          <div class="song_author cont_author"><h4 class="author"></h4></div>
+          <div class="song_title cont_title"><h4 class="title"></h4></div>
+        </div>
+        <div class="music__image cont_image">
+          <img class="music__images" src="/images/.jpg" alt="cover__image">
+        </div>
+        <div class="play__back">
+          <audio src="" class="audio"></audio>
+        </div>
+        <div class="progress_container cont_prog_cont">
+          <div class="progress__meter"></div>
+          <div class="progress prog"></div>
+        </div>
+
+        <div class="duration_time">
+          <span class="time"></span>
+          <sspan class="total_duration"></sspan>
+        </div>
+
+        <div class="navigation__buttons cont_btns">
+          <button class="btn btn4 cont_btn">
+            <i class="fa-solid fa-repeat"></i>
+          </button>
+          <button class="btn btn3 cont_btn">
+            <i class="fa-solid fa-backward-fast"></i>
+          </button>
+          <button class="btn2 cont_btn1">
+          <i class="fa-solid play fa-play"></i>
+          </button>
+          <button class="btn btn1 cont_btn">
+          <i class="fa-solid fa-forward-fast"></i>
+          </button>
+          <button class="btn btn5 cont_btn">
+            <i class="fa-solid fa-shuffle"></i>
+          </button>
+        </div>
+        <div class="volume">
+          <i class="fa-solid fa-volume-low"></i>
+          <input type="range" class="vol" min="1" max="100" value="99" >
+          <i class="fa-solid fa-volume-high"></i>
+        </div>
+      </div>
+  </div>
+  </main>
+
+<script src="main.js"></script>
+</body>
+</html>
