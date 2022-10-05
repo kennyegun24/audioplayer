@@ -183,7 +183,7 @@ const song =[{
   title: 'Cassanova',
   author: 'Nasty C',
   image: 'stringsandbling',
-  audio: 'Nasty-C-Cassanova',
+  audio: 'Nasty-C-Casanova',
 },{
   title: 'Do You Digg',
   author: 'Nasty C',
