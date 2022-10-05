@@ -183,7 +183,7 @@ const song =[{
   title: 'Cassanova',
   author: 'Nasty C',
   image: 'stringsandbling',
-  audio: 'Nasty-C-Cassanova',
+  audio: 'Nasty-C-Casanova',
 },{
   title: 'Do You Digg',
   author: 'Nasty C',
@@ -347,8 +347,8 @@ song.forEach((songUi) => {
 const loadSong = (song) => {
   title.innerText = song.title
   author.innerText = song.author
-  audio.src = `/audio/${song.audio}.mp3`
-  musicImage.src = `images/${song.image}.jpg`
+  audio.src = `./audio/${song.audio}.mp3`
+  musicImage.src = `./images/${song.image}.jpg`
 }
 
 loadSong(song[index])
